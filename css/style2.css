@@ -1,0 +1,159 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    
+    
+}
+
+#header {
+    margin: auto;
+    background: #38c8a8;
+  
+}
+
+ul, ol{
+    list-style: none;
+}
+.full {
+    float: left;
+    background-color: #38c8a8;
+}
+
+.menu {
+    width: 700px;
+    float: left;
+    background-color: #38c8a8;    
+}
+
+.menu li a{
+    background-color: #38c8a8;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    padding-bottom: 0px; 
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 10px;
+    display: flex;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.menu-item{
+    margin-top: 55px;
+}
+.center-desk{
+    margin-top: 25px;
+}
+.slider_section{
+    padding-top: 70px;
+    
+}
+
+.menu li{
+    z-index: 99;
+}
+
+.menu li a:hover{
+    background-color: #248b75;
+}
+
+.menu > li{
+
+    float: left;
+}
+
+.menu li ul {
+
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    }
+
+.menu li:hover > ul{
+    display: block;
+
+}   
+
+.menu li ul li{
+
+    position: relative;
+    
+}
+
+.menu li ul li ul {
+    right: -140px;
+    top:0px;
+}
+
+.contenedor2{
+text-align: auto;
+
+}
+
+ul.eslider{
+
+    position: relative;
+    width: 500px;
+    height: 200px;
+    text-align: auto;
+}
+
+ul.eslider li{
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background-color: white;
+    transition: opacity .5s;
+    text-align: center;
+}
+
+ul.eslider li img{
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+ul.eslider li:first-child{
+    opacity: 1;
+}
+
+ul.eslider li:target{
+    text-align: center;
+    opacity: 1;
+}
+
+
+
+.menucolorvision{
+    text-align: center;
+    margin: 20px;
+}
+
+.menucolorvision li{
+display: inline-block;
+text-align: center;
+
+}
+
+.menucolorvision li a{
+
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(114, 95, 95);
+    margin-top: 15px;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+}
+
+.slider_section{
+    margin-top: 11px;
+}
